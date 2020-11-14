@@ -1,0 +1,22 @@
+---
+title: dict_key_from_value
+tags: dictionary,keys,values
+---
+
+get the key in dictionary based on value
+
+- Use `dict.items()` and `list()` to get a list of tuples from the given dictionary.
+
+```py
+def dict_key_from_value(d,val):
+  for i,j in d.items():
+    if j==val:
+      return i
+  
+```
+
+```py
+d = {'one': 1, 'three': 3, 'five': 5, 'two': 2, 'four': 4}
+dict_key_from_value(d,3)
+# three
+```
