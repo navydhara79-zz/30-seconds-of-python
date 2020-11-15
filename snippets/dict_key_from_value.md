@@ -3,8 +3,6 @@ title: dict_key_from_value
 tags: dictionary,keys,values
 ---
 
-Explain briefly what the snippet does.
-
 - iterate through dictionary using dict.items()
 - return where desired value matches value in dictionary
 
